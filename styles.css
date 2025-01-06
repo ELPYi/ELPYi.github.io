@@ -17,7 +17,7 @@ body, html {
 
 #bouncingImage {
     position: absolute;
-    width: 100px;  /* Adjust size */
+    width: 200px;  /* Adjust size */
     height: auto;
     user-select: none;
     transform-origin: center;
