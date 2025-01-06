@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#bouncingImage {
+    position: absolute;
+    width: 100px;  /* Adjust size */
+    height: auto;
+    user-select: none;
+    transform-origin: center;
+}
